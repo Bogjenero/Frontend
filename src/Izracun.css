@@ -1,0 +1,182 @@
+﻿body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(120deg, #366a94, #be6ee0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spinner {
+    border: 4px solid rgba(255, 0, 255, 0.1);
+    border-left-color: #8A2BE2;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.forma {
+
+    position: relative;
+}
+    .forma input[type="text"] {
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 8px;
+        width: 100%; 
+    }
+    .forma label {
+        margin-right: 10px;
+    }
+
+    .forma input[type="text"] {
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 8px;
+        flex: 1; 
+    }
+
+        .forma input[type="text"] + label {
+            margin-left: 10px; 
+        }
+.custom-button {
+    margin-bottom: 15px;
+}
+
+.dropdown {
+    position: absolute;
+    
+    left: 0;
+    border: 1px solid #ccc;
+    background-color: white;
+    max-height: 100px;
+    overflow-y: auto;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.forma input[type="text"] + .dropdown.active {
+    display: block;
+}
+
+.dropdown li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+    .dropdown li:hover {
+        background-color: #eee;
+    }
+.ispis {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+.klasa, .klasa2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+    .ispis input {
+        display: block;
+        border:none;
+        outline:none;
+        box-shadow:none;
+        margin-right : 10px;
+    }
+
+    .ispis label {
+        margin-right: 10px; 
+    }
+        .ispis label + input {
+            margin-left: 10px;
+        }
+
+    .ispis::after {
+        content: attr(data-value); 
+    }
+
+.radioB {
+    display: flex; /* Koristimo flexbox da bismo postavili elemente jedan pored drugog */
+    flex-direction: column; /* Postavljamo orijentaciju na stupac kako bi elementi bili jedan ispod drugog na manjim ekranima */
+}
+
+    /* Smanjimo font za label-e unutar .radioB */
+    .radioB label {
+        font-size: 14px; /* Postavljamo manji font za label-e */
+    }
+@media only screen and (max-width: 768px) {
+    .klasa2 .forma label, .klasa2 .ispis label {
+        flex-direction:column;
+        width: auto; /* Širina labela na 100% */
+        font : 10px;/* Dodajte nešto više razmaka ispod labela */
+    }
+
+    /* Izračunajte širinu inputa oduzimajući širinu labela i malo dodatnog prostora */
+    .klasa2 .forma input[type="text"], .klasa2 .ispis input[type="text"] {
+        width: 60px;
+        height: 40px;
+        /* Oduzmite 20 piksela od 100% širine zbog margina i/ili paddinga */
+/* Dodajte razmak ispod inputa */
+    }
+
+    /* Postavite gumbe jedan pored drugog */
+    .klasa2 .custom-button {
+        display: inline-block;
+         /* Dodajte razmak između gumba */
+    }
+
+    /* Dodajte dodatni prostor ispod prvog inputa */
+    .klasa2 .forma:first-child {
+        margin-bottom: 20px;
+    }
+    .radioB {
+        flex-direction: row; /* Postavljamo orijentaciju na redak na većim ekranima */
+    }
+
+        /* Smanjujemo širinu inputa kako bi bili jedan pored drugog */
+        .radioB input[type="radio"] {
+            margin-right: 10px; /* Dodajemo malo razmaka između inputa */
+        }
+}
+    

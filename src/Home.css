@@ -1,0 +1,19 @@
+.app-container {
+    position: relative;
+}
+
+.login-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .forma label, .ispis label {
+        width: 100%; /* Promijenite širinu labela na 100% */
+        margin-bottom: 5px; /* Dodajte malo razmaka ispod labela */
+    }
+
+    .forma input[type="text"], .ispis input[type="text"] {
+        width: calc(100% - 210px); /* Prilagodite širinu inputa ovisno o širini ekrana */
+    }
+}

@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74807DDB-49E6-4E8D-9F0E-BF5A44A30015}|reactproject1.esproj|d:\\borna\\3.godina\\2.semestar\\ows\\projekt\\reactproject1\\src\\izracun.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{74807DDB-49E6-4E8D-9F0E-BF5A44A30015}|reactproject1.esproj|solutionrelative:src\\izracun.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74807DDB-49E6-4E8D-9F0E-BF5A44A30015}|reactproject1.esproj|d:\\borna\\3.godina\\2.semestar\\ows\\projekt\\reactproject1\\src\\izracun.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74807DDB-49E6-4E8D-9F0E-BF5A44A30015}|reactproject1.esproj|solutionrelative:src\\izracun.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74807DDB-49E6-4E8D-9F0E-BF5A44A30015}|reactproject1.esproj|d:\\borna\\3.godina\\2.semestar\\ows\\projekt\\reactproject1\\src\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{74807DDB-49E6-4E8D-9F0E-BF5A44A30015}|reactproject1.esproj|solutionrelative:src\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74807DDB-49E6-4E8D-9F0E-BF5A44A30015}|reactproject1.esproj|d:\\borna\\3.godina\\2.semestar\\ows\\projekt\\reactproject1\\src\\createacc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74807DDB-49E6-4E8D-9F0E-BF5A44A30015}|reactproject1.esproj|solutionrelative:src\\createacc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74807DDB-49E6-4E8D-9F0E-BF5A44A30015}|reactproject1.esproj|d:\\borna\\3.godina\\2.semestar\\ows\\projekt\\reactproject1\\src\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74807DDB-49E6-4E8D-9F0E-BF5A44A30015}|reactproject1.esproj|solutionrelative:src\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 231,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Izracun.jsx",
+              "DocumentMoniker": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\src\\Izracun.jsx",
+              "RelativeDocumentMoniker": "src\\Izracun.jsx",
+              "ToolTip": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\src\\Izracun.jsx",
+              "RelativeToolTip": "src\\Izracun.jsx",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAYwJkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-28T21:24:46.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogIn.jsx",
+              "DocumentMoniker": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\src\\LogIn.jsx",
+              "RelativeDocumentMoniker": "src\\LogIn.jsx",
+              "ToolTip": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\src\\LogIn.jsx",
+              "RelativeToolTip": "src\\LogIn.jsx",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-28T21:24:39.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateAcc.css",
+              "DocumentMoniker": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\src\\CreateAcc.css",
+              "RelativeDocumentMoniker": "src\\CreateAcc.css",
+              "ToolTip": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\src\\CreateAcc.css",
+              "RelativeToolTip": "src\\CreateAcc.css",
+              "ViewState": "AQIAACEBAAAAAAAAAAAAAC4BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-28T20:57:51.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.css",
+              "DocumentMoniker": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\src\\Home.css",
+              "RelativeDocumentMoniker": "src\\Home.css",
+              "ToolTip": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\src\\Home.css",
+              "RelativeToolTip": "src\\Home.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-28T20:57:42.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Izracun.css",
+              "DocumentMoniker": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\src\\Izracun.css",
+              "RelativeDocumentMoniker": "src\\Izracun.css",
+              "ToolTip": "D:\\Borna\\3.godina\\2.SEMESTAR\\OWS\\Projekt\\reactproject1\\src\\Izracun.css",
+              "RelativeToolTip": "src\\Izracun.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-28T20:42:34.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
